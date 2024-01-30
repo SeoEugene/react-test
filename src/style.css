@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #333;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+*>div {
+    border-bottom: 1px solid #333;
+}
